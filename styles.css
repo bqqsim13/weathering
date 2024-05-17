@@ -1,0 +1,29 @@
+p.jani{
+    color: rgba(0, 0, 0, 0.1);
+
+}
+
+@font-face {
+    font-family: Kitten Swash Monoline;
+    src: url('kitten.swash-monoline.ttf') format('truetype');
+}
+
+h1.titleText{
+    font-family: 'Kitten Swash Monoline', sans-serif;
+    font-weight: 5000pt;
+    font-size: 85pt;
+    text-align: center;
+    margin-left: 30pt;
+    color: lightslategrey;
+    margin-top: -3pt;
+}
+
+.header {
+    position: fixed;
+    right: 0pt;
+    top: 0;
+    height: 125pt;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgb(144, 216, 239), rgb(178, 177, 177));
+    z-index: -5;
+}
