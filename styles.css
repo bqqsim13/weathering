@@ -27,3 +27,17 @@ h1.titleText{
     background: linear-gradient(to bottom right, rgb(144, 216, 239), rgb(178, 177, 177));
     z-index: -5;
 }
+
+.forecast {
+    width: 50vh;
+    height: 100vh;
+    background-color: rgb(202, 202, 202);
+    color: pink;
+    text-align: center;
+    margin-left: 10vh;
+    margin-bottom: 20vh;
+  }
+  
+  .forecast:hover {
+    background-color: #c2bdbd;
+  }
