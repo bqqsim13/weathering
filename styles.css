@@ -32,12 +32,32 @@ h1.titleText{
     width: 50vh;
     height: 100vh;
     background-color: rgb(202, 202, 202);
-    color: pink;
+    color: rgba(63, 43, 46, 0.479);
     text-align: center;
     margin-left: 10vh;
     margin-bottom: 20vh;
+    margin-top: 5vh;
+    border-radius: 10px;
   }
   
   .forecast:hover {
     background-color: #c2bdbd;
   }
+
+input[type="text"] {
+    width: 60vh;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 60vh;
+    margin-right: 5vh;
+    
+}
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;   
+}
